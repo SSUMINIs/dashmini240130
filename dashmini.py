@@ -6,6 +6,7 @@ import plotly.express as px
 import pandas as pd
 import plotly
 
+st.set_page_config(layout="wide")
 #@st.cache_data
 #data_ais = 'csv/aisles.csv/aisles.csv'
 data_dep = 'csv/departments.csv/departments.csv'
